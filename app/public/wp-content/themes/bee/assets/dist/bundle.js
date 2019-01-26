@@ -13654,8 +13654,6 @@ exports.default = function () {
 
 	Barba.Dispatcher.on('transitionCompleted', function (currentStatus, oldStatus, container, rawHTML) {
 		window.dispatchEvent(new Event('resize'));
-
-		console.log('hellooooo');
 	});
 
 	Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container, rawHTML) {
@@ -13902,6 +13900,8 @@ exports.default = function () {
 		sbi_init(function (i, t, a, b) {
 			sbi_cache_all(i, t, a, b);
 		});
+
+		$(".services-render__swipe").twentytwenty();
 	});
 };
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0), __webpack_require__(0)))

@@ -77,8 +77,6 @@ export default function() {
 
 	Barba.Dispatcher.on('transitionCompleted', function(currentStatus, oldStatus, container, rawHTML) {
 		window.dispatchEvent(new Event('resize'));
-
-		console.log('hellooooo');
 	});
 
 	Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container, rawHTML) {
@@ -331,6 +329,8 @@ export default function() {
 		sbi_init(function(i,t,a,b) {
 		    sbi_cache_all(i,t,a,b);
 		});
+
+		$(".services-render__swipe").twentytwenty();
     });
 
 }
