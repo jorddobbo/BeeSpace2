@@ -2412,7 +2412,6 @@ textarea {
 .blog-content .wp-block-gallery {
     margin-bottom: 70px !important; }
 .blog-content .wp-block-gallery img {
-      width: auto !important;
       margin: 0 !important; }
 .blog-content .blocks-gallery-item {
     margin: 0 !important; }
