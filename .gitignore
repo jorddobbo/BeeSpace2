@@ -2,6 +2,8 @@
 app/public/wp-content/upgrade
 app/public/wp-content/uploads/*
 !app/public/wp-content/uploads/.gitkeep
+app/public/wp-content/ai1wm-backups/*
+app/public/wp-snapshots/*
 
 app/sql
 

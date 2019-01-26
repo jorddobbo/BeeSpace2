@@ -40,7 +40,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 					<p class="services-intro__paragraph">We design for you. By talking to you, we learn what you feel inspired by. We then look at how we can creatively apply that into a bespoke concept tailored to your property investment area and strategy. We want you to feel passionate and proud about the property brand we create for you.</p>
 				</div>
 				<div class="services-intro__third fadeUp" data-delay="400">
-					<img class="services-intro__icon" src="<?= get_template_directory_uri(); ?>/assets/img/icon_house-plan.svg" alt="Intro"/>
+					<img class="services-intro__icon" src="<?= get_template_directory_uri(); ?>/assets/img/icon_bedroom.svg" alt="Intro"/>
 					<h3 class="services-intro__title">Investment</h3>
 					<p class="services-intro__paragraph">By committing and investing into your property you are investing into yourself. Through the use of our creative property concepts we’ve seen landlords achieve 30%+ higher then average rents, often with waiting lists for the property of potential new tenants. Lower void periods and maintenance issues. It’s a no brainer.</p>
 				</div>
@@ -124,6 +124,15 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 	<section class="services-layout">
 		<div class="services-layout__container container">
 			<img src="<?= get_template_directory_uri(); ?>/assets/img/services_layout.jpg">
+		</div>
+	</section>
+
+	<section class="services-render">
+		<div class="services-render__container container">
+			<div class="services-render__swipe">
+				<img src="<?= get_template_directory_uri(); ?>/assets/img/img_render.jpg">
+				<img src="<?= get_template_directory_uri(); ?>/assets/img/img_render-2.jpg">
+			</div>
 		</div>
 	</section>
 

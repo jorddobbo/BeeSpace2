@@ -140,6 +140,22 @@
     }
 }
 
+.services-render {
+    padding: 0 0 50px 0;
+
+    @media screen and (min-width: 600px) {
+        padding: 0 0 70px 0;
+    }
+
+    @media screen and (min-width: 800px) {
+        padding: 0 0 100px 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 0 0 140px 0;
+    }
+}
+
 .services-breakdown__item-number {
 	border: 1px solid $darkLight;
 	display: inline-block;

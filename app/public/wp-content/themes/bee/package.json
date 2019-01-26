@@ -11,7 +11,10 @@
     "icons": "crossbow run icons",
     "push": "crossbow run build-push"
   },
-  "dependencies": {},
+  "dependencies": {
+    "compass": "^0.1.1",
+    "compass-mixins": "^0.12.10"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "7.1.1",

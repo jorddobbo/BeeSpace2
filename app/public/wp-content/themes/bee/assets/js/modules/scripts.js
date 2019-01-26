@@ -77,6 +77,8 @@ export default function() {
 
 	Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container, rawHTML) {
 
+		$(".services-render__swipe").twentytwenty();
+
 		$('a').on('click', function (event) {
 		    if(this.pathname === window.location.pathname){
 		        console.log('same link');
