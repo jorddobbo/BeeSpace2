@@ -75,9 +75,17 @@ export default function() {
 
 	});
 
+	Barba.Dispatcher.on('transitionCompleted', function(currentStatus, oldStatus, container, rawHTML) {
+		window.dispatchEvent(new Event('resize'));
+
+		console.log('hellooooo');
+	});
+
 	Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container, rawHTML) {
 
-		$(".services-render__swipe").twentytwenty();
+		if ($(".instagram-media")[0]){
+		    window.instgrm.Embeds.process();
+		};
 
 		$('a').on('click', function (event) {
 		    if(this.pathname === window.location.pathname){
@@ -292,6 +300,7 @@ export default function() {
 				prevArrow: $('.home-testimonials__prev'),
 		        nextArrow: $('.home-testimonials__next'),
 			});
+
 		})();
 
 		function serviceIndicator() {
@@ -322,8 +331,6 @@ export default function() {
 		sbi_init(function(i,t,a,b) {
 		    sbi_cache_all(i,t,a,b);
 		});
-
-		$(window).trigger('resize');
     });
 
 }

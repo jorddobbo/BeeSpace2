@@ -47,7 +47,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 				<div class="services-intro__third fadeUp" data-delay="400">
 					<img class="services-intro__icon" src="<?= get_template_directory_uri(); ?>/assets/img/icon_house-plan.svg" alt="Intro"/>
 					<h3 class="services-intro__title">Time</h3>
-					<p class="services-intro__paragraph">As property investors our selves we know the value of time and how you use it.  By choosing to work with us we can support your project by making decisions quickly about materials and where they come from. We will get the property 100% aesthetically ready for the open market.</p>
+					<p class="services-intro__paragraph">By choosing to work with us we can support your project by making decisions quickly about materials and where they come from. We will get the property 100% aesthetically ready for the open market.</p>
 				</div>
 			</div>
 		</div>
@@ -65,7 +65,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 				</h2>
 				<p class="services-breakdown__top-paragraph fadeUp">As property investors we understand how precious time is during a project, and how many design decisions need to be made on time and in budget.
 
-					Our design service has been created to give you more time back. It’s a turn-key deign service, which guarantees you have the best house at the end, stress free. Meaning you can use your time and expertise elsewhere.
+					Our design service has been created to give you more time back. It’s a turn-key design service, which guarantees you have the best house at the end, stress free. Meaning you can use your time and expertise elsewhere.
 				</p>
 			</div>
 			<div class="services-breakdown__list">
@@ -123,12 +123,15 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 
 	<section class="services-layout">
 		<div class="services-layout__container container">
+			<h3>Example of floor plan</h3>
 			<img src="<?= get_template_directory_uri(); ?>/assets/img/services_layout.jpg">
 		</div>
 	</section>
 
 	<section class="services-render">
 		<div class="services-render__container container">
+			<h3>Example of 3D renders</h3>
+			<p>We can produce 3D renders for your project (provided at an additional cost)</p>
 			<div class="services-render__swipe">
 				<img src="<?= get_template_directory_uri(); ?>/assets/img/img_render.jpg">
 				<img src="<?= get_template_directory_uri(); ?>/assets/img/img_render-2.jpg">

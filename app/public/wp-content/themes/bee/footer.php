@@ -17,7 +17,7 @@
 			</div>
 			<div class="footer__middle-item">
 				<h6 class="footer__middle-subtitle">Email us</h6>
-				<h4 class="footer__middle-title">SEND AN EMAIL <img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-right.svg" /></h4>
+				<h4 class="footer__middle-title"><a href="mailto:hello@bee-space.co.uk">SEND AN EMAIL <img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-right.svg" /></a></h4>
 			</div>
 			<div class="footer__middle-item footer__middle-social">
 				<h6 class="footer__middle-subtitle">Get in touch</h6>
@@ -29,7 +29,7 @@
 		</div>
 		<div class="footer__bottom">
 			<div class="footer__bottom-left">
-				<img src="<?= get_template_directory_uri(); ?>/assets/img/logo-white.svg" /> © 2018 Bee Space. All rights reserved.
+				<img src="<?= get_template_directory_uri(); ?>/assets/img/logo-white.svg" /> © 2019 Bee Space. All rights reserved.
 			</div>
 			<div class="footer__bottom-right">
 				<?php

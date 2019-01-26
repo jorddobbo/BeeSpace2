@@ -428,6 +428,8 @@ template {
   min-height: 1px; }
 [dir='rtl'] .slick-slide {
   float: right; }
+.slick-slide figure {
+  display: block !important; }
 .slick-slide img {
   display: block;
   width: 100%;
@@ -1128,6 +1130,9 @@ textarea {
   border: 0; }
 .footer__middle {
   padding: 50px 0; }
+.footer__middle a {
+    color: #fff;
+    text-decoration: none; }
 @media screen and (min-width: 600px) {
     .footer__middle {
       padding: 200px 0;
@@ -1721,9 +1726,11 @@ textarea {
     .about-jade__half {
       width: 50%;
       float: left; } }
+.about-jade__half-inner {
+  padding: 50px 0 0 0; }
 @media screen and (min-width: 800px) {
-  .about-jade__half-inner {
-    padding: 0 0 0 10%; } }
+    .about-jade__half-inner {
+      padding: 0 0 0 10%; } }
 .about-jade__title {
   margin: 0 0 20px 0; }
 .about-jade__paragraph {
@@ -1832,6 +1839,9 @@ textarea {
         margin-top: 150px; } }
 .services-layout {
   padding: 0 0 50px 0; }
+.services-layout h3 {
+    text-align: center;
+    margin: 0 0 50px 0; }
 @media screen and (min-width: 600px) {
     .services-layout {
       padding: 0 0 70px 0; } }
@@ -1842,7 +1852,13 @@ textarea {
     .services-layout {
       padding: 0 0 140px 0; } }
 .services-render {
-  padding: 0 0 50px 0; }
+  padding: 0 0 50px 0;
+  text-align: center; }
+.services-render h3 {
+    margin: 0 0 20px 0; }
+.services-render p {
+    font-size: 16px;
+    margin: 0 0 50px 0; }
 @media screen and (min-width: 600px) {
     .services-render {
       padding: 0 0 70px 0; } }
@@ -1851,7 +1867,10 @@ textarea {
       padding: 0 0 100px 0; } }
 @media screen and (min-width: 1200px) {
     .services-render {
-      padding: 0 0 140px 0; } }
+      padding: 0 0 140px 0; }
+      .services-render p {
+        font-size: 22px;
+        margin: 0 0 70px 0; } }
 .services-breakdown__item-number {
   border: 1px solid rgba(20, 19, 19, 0.15);
   display: inline-block;
@@ -2098,6 +2117,8 @@ textarea {
   min-height: 1px; }
 [dir='rtl'] .slick-slide {
   float: right; }
+.slick-slide figure {
+  display: block !important; }
 .slick-slide img {
   display: block;
   width: 100%;

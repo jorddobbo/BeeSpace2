@@ -43,7 +43,7 @@ $frontpage_id = get_option( 'page_on_front' );
 									<span class="title-split__line">Your Space</span>
 								</div>
 							</h1>
-							<p class="home-intro__paragraph fadeUp">Beespace is a design-led creative property company. We specialise in creating Co-living and Co-working spaces with a difference. We design and develop creative concepts which are unique in design and memorable in experience.</p>
+							<p class="home-intro__paragraph fadeUp">Bee Space is a design-led creative property company. We specialise in creating co-living and co-working spaces with a difference. We design and develop creative concepts which are unique in design and memorable in experience.</p>
 							<div class="home-intro__buttons fadeUp">
 								<a href="#projects" class="button home-intro__button">Our work</a>
 								<a href="/about" class="button home-intro__button button--outline">Learn more</a>
@@ -156,7 +156,7 @@ $frontpage_id = get_option( 'page_on_front' );
 			<div class="home-testimonials__inner">
 				<div class="home-testimonials__item">
 					<h3 class="home-testimonials__title">We've had the pleasure of working with Jade over the past 12 months</h3>
-					<p class="home-testimonials__paragraph">and seeing her vision come to life on numerous projects. As well as a fantastic creative flair, she has a real passion for her work as well ensuring her projects are delivered in the most professional way. Not only that, but she's a genuine nice person, which makes working with her fun as well as rewarding."</p>
+					<p class="home-testimonials__paragraph">and seeing her vision come to life on numerous projects. As well as a fantastic creative flair, she has a real passion for her work as well, ensuring her projects are delivered in the most professional way. Not only that, but she's a genuine nice person, which makes working with her fun as well as rewarding."</p>
 					<div class="home-testimonials__author fadeUp">
 						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_1.png" />
 						<div class="home-testimonials__author-right">
@@ -166,8 +166,8 @@ $frontpage_id = get_option( 'page_on_front' );
 					</div>
 				</div>
 				<div class="home-testimonials__item">
-					<h3 class="home-testimonials__title title-split">We work with Jade on a regular basis, Her design ideas are second to none</h3>
-					<p class="home-testimonials__paragraph fadeUp">she is professional yet friendly, nothing is too much trouble and we've built up a great relationship over the past few months. Simply looking at her instagram page will give you design inspiration for your next project.“</p>
+					<h3 class="home-testimonials__title title-split">We work with Jade on a regular basis, Her design ideas are second to none.</h3>
+					<p class="home-testimonials__paragraph fadeUp">She is professional yet friendly, nothing is too much trouble and we've built up a great relationship over the past few months. Simply looking at her Instagram page will give you design inspiration for your next project.“</p>
 					<div class="home-testimonials__author fadeUp">
 						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_2.png" />
 						<div class="home-testimonials__author-right">
@@ -178,7 +178,7 @@ $frontpage_id = get_option( 'page_on_front' );
 				</div>
 				<div class="home-testimonials__item">
 					<h3 class="home-testimonials__title title-split">Bee Space turned a very tired, drab office block into a beautiful counselling space</h3>
-					<p class="home-testimonials__paragraph fadeUp">My clients say things like 'I feel better just walking in here'. Jade used natural materials and calming colours resulting in a very pleasant place to do counselling work. Thank you Bee Space for your creativity and commitment to the vision of the Palmer House Wellbeing Centre (and for delivering on time). I would highly recommend working with BEESPACE if you are looking to create something different that will stand out!"</p>
+					<p class="home-testimonials__paragraph fadeUp">My clients say things like "I feel better just walking in here". Jade used natural materials and calming colours, resulting in a very pleasant place to do counselling work. Thank you Jade for your creativity and commitment to the vision of the Palmer House Wellbeing Centre (and for delivering on time). I would highly recommend working with Bee Space if you are looking to create something different that will stand out!"</p>
 					<div class="home-testimonials__author fadeUp">
 						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_3.png" />
 						<div class="home-testimonials__author-right">
@@ -189,7 +189,7 @@ $frontpage_id = get_option( 'page_on_front' );
 				</div>
 				<div class="home-testimonials__item">
 					<h3 class="home-testimonials__title title-split">Working with Jade has been a GAME CHANGER for us</h3>
-					<p class="home-testimonials__paragraph fadeUp">We started working with Jade almost 12 months ago now. I first approched her to assist with the design of one of our HMO's, and as they say, the rest is history. Jade has been able to turn our rough ideas and themes into concepts we never could have dreamed of. She's elevated our projects to a level that established our brand and 26 project later, I couldn't do it without her as part of the team. Approaching her was by far one of the best decisions we ever made. She has always delivered an amazing result. If you want your design ideas to become reality in your projects, Jade is the lady to speak to."</p>
+					<p class="home-testimonials__paragraph fadeUp">We started working with Jade almost 12 months ago now. I first approched her to assist with the design of one of our HMO's, and as they say, the rest is history. Jade has been able to turn our rough ideas and themes into concepts we never could have dreamed of. She's elevated our projects to a level that established our brand and 26 projects later, I couldn't do it without her as part of the team. Approaching her was by far one of the best decisions we ever made. She has always delivered an amazing result. If you want your design ideas to become reality in your projects, Jade is the lady to speak to."</p>
 					<div class="home-testimonials__author fadeUp">
 						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_4.png" />
 						<div class="home-testimonials__author-right">

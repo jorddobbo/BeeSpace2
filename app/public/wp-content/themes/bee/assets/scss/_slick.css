@@ -86,6 +86,10 @@
 {
     float: right;
 }
+
+.slick-slide figure {
+    display: block !important;
+}
 .slick-slide img
 {
     display: block;
