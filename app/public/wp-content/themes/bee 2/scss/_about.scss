@@ -1,0 +1,33 @@
+.about-jade {
+	padding: 140px 0;
+}
+
+.about-jade__row {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-jade__half {
+	width: 50%;
+	float: left;
+}
+
+.about-jade__half-inner {
+	padding: 0 0 0 10%;
+}
+
+.about-jade__title {
+	font-size: 147px;
+	margin: 0 0 20px 0;
+}
+
+.about-jade__paragraph {
+	margin: 0 0 30px 0;
+}
+
+.about-jade__social {
+	img {
+		margin: 0 15px 0 0;
+	}
+}

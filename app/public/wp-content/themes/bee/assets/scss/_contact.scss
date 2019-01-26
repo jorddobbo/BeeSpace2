@@ -1,0 +1,152 @@
+.page-contact {
+	background: $dark;
+	color: #fff;
+
+	@media screen and (min-width: 1200px) {
+		.half-pattern__inner {
+	    	width: 58%;
+	    }
+	}
+}
+
+.page-contact__inner {
+
+	@media screen and (min-width: 800px) {
+		display: flex;
+		margin: 0 -30px;
+	}
+}
+
+.page-contact__column {
+	width: 100%;
+
+	@media screen and (min-width: 800px) {
+		padding: 0 30px;
+		width: 50%;
+	}
+}
+
+.page-contact__item {
+	margin: 0 0 60px 0;
+}
+
+.page-contact__subtitle {
+	margin: 0 0 30px 0;
+}
+
+.page-contact__title {
+	color: #fff;
+	font-size: 50px;
+	vertical-align: middle;
+
+	img {
+		margin: -10px 0 0 10px;
+		width: 40px;
+	}
+}
+
+.page-contact__social {
+	img {
+		margin: 0 10px 0 0;
+	}
+}
+
+.page-contact__form {
+    background: $dark;
+    position: relative;
+    padding: 30px 30px 30px 0;
+
+    @media screen and (min-width: 800px) {
+		padding: 50px;
+    }
+
+    @media screen and (min-width: 1200px) {
+		padding: 70px;
+    }
+}
+
+.page-contact__form-input {
+	margin: 0 0 20px 0;
+
+	input,
+	textarea {
+		&::-webkit-input-placeholder {
+		  color: #fff;
+		}
+
+		&::-moz-placeholder {
+		  color: #fff;
+		}
+
+		&:-ms-input-placeholder {
+		  color: #fff;
+		}
+
+		&:-moz-placeholder {
+		  color: #fff;
+		}
+	}
+
+	textarea {
+		height: 150px;
+		max-width: 100%;
+	}
+}
+
+.page-contact__form-submit {
+	margin: 0;
+
+	.button {
+		width: 100%;
+	}
+}
+
+div.wpcf7 .ajax-loader {
+	position: absolute;
+}
+
+ 
+span .wpcf7-not-valid {
+    border: 1px solid #ff0000 !important;
+}
+
+
+span.wpcf7-not-valid-tip {
+    display: none;
+}
+
+div.wpcf7-validation-errors {
+    background: #ffe500;
+    border: none !important;
+    color: #141313;
+}
+
+div.wpcf7-response-output {
+    margin: 2em 0 0 0;
+    padding: 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;	
+}
+
+// div.wpcf7-validation-errors {
+//     display: none !important;
+// }
+
+.wpcf7-spam-blocked {
+     background: #e2e2e2;
+     border: none !important;
+     color: #fff;
+}
+
+.wpcf7-mail-sent-ng {
+     background: #fcf8e3;
+     border: none !important;
+     color: #fff;
+}
+
+.wpcf7-mail-sent-ok {
+     background: #dff0d8;
+     border: none !important;
+     color: #fff;
+}

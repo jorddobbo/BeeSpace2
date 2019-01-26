@@ -1,0 +1,14 @@
+$primary: #FFE424;
+$dark: #141313;
+$body: #5A5959;
+$bodyLight: #898989;
+$darkLight: rgba($dark, 0.15);
+$lightLight: rgba(#fff, 0.15);
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

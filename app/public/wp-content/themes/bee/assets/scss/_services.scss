@@ -1,0 +1,213 @@
+.services-intro {
+	border-bottom: 1px solid $darkLight;
+	padding: 50px 0 0 0;
+
+	@media screen and (min-width: 600px) {
+		padding: 70px 0 20px 0;
+	}
+
+	@media screen and (min-width: 800px) {
+		padding: 100px 0 50px 0;
+	}
+
+	@media screen and (min-width: 1200px) {
+		padding: 140px 0;
+	}
+}
+
+.services-intro__row {
+    @media screen and (min-width: 800px) {
+		display: flex;
+	    flex-wrap: wrap;
+	    margin: 0 -50px;
+	}
+}
+
+.services-intro__third {
+	text-align: center;
+	margin: 0 0 50px 0;
+
+	@media screen and (min-width: 800px) {
+		width: 33.33%;
+		float: left;
+		padding: 0 50px;
+		margin: 0;
+	}
+}
+
+.services-intro__icon {
+	margin: 0 0 30px 0;
+}
+
+.services-intro__paragraph {
+	margin: 0;
+}
+
+.services-breakdown {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px 0;
+
+	@media screen and (min-width: 600px) {
+		padding: 70px 0;
+	}
+
+	@media screen and (min-width: 800px) {
+		padding: 100px 0;
+	}
+
+	@media screen and (min-width: 1200px) {
+		padding: 140px 0;
+	}
+}
+
+.services-breakdown__top {
+	text-align: center;
+	margin: 0 0 60px 0;
+}
+
+.services-breakdown__top-paragraph {
+	@media screen and (min-width: 1200px) {
+		font-size: 22px;
+	}
+}
+
+.services-breakdown__list {
+	@include clearfix();
+	position: relative;
+	padding: 0 0 0 30px;
+
+	@media screen and (min-width: 500px) {
+		padding: 0;
+	}
+}
+
+.services-breakdown__indicator {
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: $darkLight;
+    overflow: hidden;
+
+    div {
+    	position: absolute;
+    	left: 0;
+    	top: 0;
+    	right: 0;
+    	background: $dark;
+    }
+
+    @media screen and (min-width: 500px) {
+		left: 50%;
+	}
+}
+
+.services-breakdown__item {
+	width: 100%;
+	margin: 0 0 50px 0;
+
+	&:last-child { margin-bottom: 0; }
+
+	p {
+		margin: 0;
+	}
+
+	@media screen and (min-width: 500px) {
+		width: 40%;
+		margin: 0 0 150px 0;
+
+		&:nth-child(even) { float: left; }
+		&:nth-child(odd) { float: right; }
+		&:nth-child(3) { margin-top: 150px; }
+	}
+}
+
+.services-layout {
+    padding: 0 0 50px 0;
+
+    @media screen and (min-width: 600px) {
+        padding: 0 0 70px 0;
+    }
+
+    @media screen and (min-width: 800px) {
+        padding: 0 0 100px 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 0 0 140px 0;
+    }
+}
+
+.services-breakdown__item-number {
+	border: 1px solid $darkLight;
+	display: inline-block;
+	line-height: 60px;
+    font-size: 22px;
+    color: $dark;
+    font-weight: 500;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+.services-projects {
+	position: relative;
+	background: $dark;
+	color: #fff;
+}
+
+.services-projects__left {
+	width: 100%;
+
+	@media screen and (min-width: 800px) {
+        width: 50%;
+    }
+}
+
+.services-projects__title {
+	color: #fff;
+}
+
+.services-projects__left-inner {
+    max-width: 510px;
+    padding: 50px 0;
+    width: 100%;
+
+    @media screen and (min-width: 600px) {
+        padding: 70px 0;
+    }
+
+    @media screen and (min-width: 800px) {
+        padding: 100px 0;
+        width: 85%;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 240px 0;
+    }
+}
+
+.services-projects__paragraph {
+	margin: 0 0 30px 0;
+}
+
+.services-projects__right {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    width: 100%;
+    padding: 0 0 50% 0;
+    z-index: 2;
+    background-size: cover;
+    background-position: 75% 50%;
+
+    @media screen and (min-width: 800px) {
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+    }
+}

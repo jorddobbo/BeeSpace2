@@ -1,0 +1,52 @@
+.about-jade {
+	padding: 50px 0 80px;
+
+	@media screen and (min-width: 600px) {
+		padding: 70px 0 100px;
+	}
+
+	@media screen and (min-width: 800px) {
+		padding: 100px 0 130px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		padding: 140px 0;
+	}
+}
+
+.about-jade__row {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-jade__half {
+	width: 100%;
+
+	@media screen and (min-width: 800px) {
+		width: 50%;
+		float: left;
+	}
+}
+
+.about-jade__half-inner {
+	@media screen and (min-width: 800px) {
+		padding: 0 0 0 10%;
+	}
+}
+
+.about-jade__title {
+	margin: 0 0 20px 0;
+}
+
+.about-jade__paragraph {
+	margin: 0 0 30px 0;
+}
+
+.about-jade__social {
+	padding: 0 0 30px 0;
+	
+	img {
+		margin: 0 15px 0 0;
+	}
+}
