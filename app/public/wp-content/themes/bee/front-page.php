@@ -223,8 +223,8 @@ $frontpage_id = get_option( 'page_on_front' );
 			<div class="footer-feature__inner">
 				<div class="footer-feature__item fadeUp">Featured in</div>
 				<div class="footer-feature__item fadeUp"><a target="_blank" href="https://www.insidepropertyinvesting.com/jade-bailey-mansfield-hmo-3/"><img src="<?= get_template_directory_uri(); ?>/assets/img/feature_inside.png" /></a></div>
-				<div class="footer-feature__item fadeUp"><a target="_blank" href=""><img src="<?= get_template_directory_uri(); ?>/assets/img/feature_property.png" /></a></div>
-				<div class="footer-feature__item fadeUp"><a target="_blank" href=""><img src="<?= get_template_directory_uri(); ?>/assets/img/feature_hmo.png" /></a></div>
+				<div class="footer-feature__item fadeUp"><img src="<?= get_template_directory_uri(); ?>/assets/img/feature_property.png" /></div>
+				<div class="footer-feature__item fadeUp"><img src="<?= get_template_directory_uri(); ?>/assets/img/feature_hmo.png" /></div>
 			</div>
 		</div>
 	</section>
