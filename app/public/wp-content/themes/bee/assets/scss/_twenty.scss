@@ -2,7 +2,7 @@
 $pluginPrefix: "twentytwenty" !default;
 
 // 20/20 Handle Styles
-$twenty20-handle-color: #fff !default;
+$twenty20-handle-color: #ffe423 !default;
 $twenty20-handle-stroke: 3px !default;
 $twenty20-handle-circle-width: 38px !default;
 $twenty20-handle-box-shadow: 0px 0px 12px rgba(#333,0.5) !default;
@@ -222,11 +222,11 @@ $twenty20-label-radius: 2px !default;
   top: 50%;
   margin-left: -($twenty20-handle-circle-width/2) - $twenty20-handle-stroke;
   margin-top: -($twenty20-handle-circle-width/2) - $twenty20-handle-stroke;
-  border: $twenty20-handle-stroke solid $twenty20-handle-color;
-  border-radius: $twenty20-handle-radius;
+  border-radius: 0;
   box-shadow: $twenty20-handle-box-shadow;
   z-index: 40;
   cursor: pointer;
+  background-color: #ffe423;
 }
 
 // 20/20 Horizontal Handle Styles
@@ -271,7 +271,7 @@ $twenty20-label-radius: 2px !default;
 
 // 20/20 Left Handle
 .#{$pluginPrefix}-left-arrow {
-  border-right: $twenty20-handle-triangle-size solid $twenty20-handle-triangle-color;
+  border-right: $twenty20-handle-triangle-size solid #141313;
   left: 50%;
   margin-left: -($twenty20-handle-triangle-size * 2) - $twenty20-handle-triangle-position;
   @extend %css-triangle-horizontal;
@@ -279,7 +279,7 @@ $twenty20-label-radius: 2px !default;
 
 // 20/20 Right Handle
 .#{$pluginPrefix}-right-arrow {
-  border-left: $twenty20-handle-triangle-size solid $twenty20-handle-triangle-color;
+  border-left: $twenty20-handle-triangle-size solid #141313;
   right: 50%;
   margin-right: -($twenty20-handle-triangle-size * 2) - $twenty20-handle-triangle-position;
   @extend %css-triangle-horizontal;

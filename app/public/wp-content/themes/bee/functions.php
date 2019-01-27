@@ -124,9 +124,12 @@ ob_start(); ?>
 
     $postCount++; ?>
         
-    <?php $bg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'featured-large'); ?>
+    <?php
+    	$bg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'featured-large');
+    	$featured = get_field('featured', $post->ID);
+    ?>
 	
-    <div class="home-projects__item fadeUp <?php if($postCount == 4) { ?>home-projects__item--full<?php } else { ?>home-projects__item--half<?php } ?>">
+    <div class="home-projects__item fadeUp <?php if($featured) { ?>home-projects__item--full<?php } else { ?>home-projects__item--half<?php } ?>">
 		<a class="home-projects__item-inner" href="<?php echo the_permalink(); ?>">
 			<h3 class="home-projects__item-title"><?php echo the_title(); ?></h3>
 			<div class="home-projects__item-image" style="background-image: url('<?php echo $bg[0]; ?>');"></div>
