@@ -42,7 +42,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 				<div class="services-intro__third fadeUp" data-delay="200">
 					<img class="services-intro__icon" src="<?= get_template_directory_uri(); ?>/assets/img/icon_bedroom.svg" alt="Intro"/>
 					<h3 class="services-intro__title">Investment</h3>
-					<p class="services-intro__paragraph">By committing and investing into your property you are investing into yourself. Through the use of our creative property concepts we’ve seen landlords achieve 30%+ higher than average rents, often with waiting lists for the property of potential new tenants. Lower void periods and maintenance issues. It’s a no brainer.</p>
+					<p class="services-intro__paragraph">By committing and investing into your property brand you are investing into yourself. Through the use of our creative property concepts we’ve seen landlords achieve 30%+ higher than average rents, often with waiting lists for the property of potential new tenants. Lower void periods and maintenance issues. It’s a no brainer.</p>
 				</div>
 				<div class="services-intro__third fadeUp" data-delay="400">
 					<img class="services-intro__icon" src="<?= get_template_directory_uri(); ?>/assets/img/icon_house-plan.svg" alt="Intro"/>
