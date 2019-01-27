@@ -23,7 +23,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 								<span class="title-split__line title__highlight">BeeSpace</span>
 							</div>
 						</h1>
-						<p class="page-hero__paragraph fadeUp">Bee Space is a design-led creative property company. We specialise in creating co-living and co-working spaces with a difference. We design and develop creative concepts which are unique in design and memorable in experience.</p>
+						<p class="page-hero__paragraph fadeUp">Beespace is a design-led creative property company. We specialise in creating co-living and co-working spaces with a difference. We design and develop creative concepts which are unique in design and memorable in experience.</p>
 					</div>
 				</div>
 			</div>
@@ -44,7 +44,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 							<a target="_blank" href="https://www.facebook.com/beespaceproperty/"><img src="<?= get_template_directory_uri(); ?>/assets/img/social_fb-dark.svg" /></a>
 							<a target="_blank" href="https://www.linkedin.com/in/jade-bailey-0b108584/?originalSubdomain=uk"><img src="<?= get_template_directory_uri(); ?>/assets/img/social_in-dark.svg" /></a>
 						</div>
-						<p class="about-jade__paragraph">Jade Bailey is the Creative Director and Founder of Bee Space. As a property investor and developer herself, she wants to challenge the everyday perception of what a co-living house could look and feel like by branding the houses she owns.
+						<p class="about-jade__paragraph">Jade Bailey is the Creative Director and Founder of Beespace. As a property investor and developer herself, she wants to challenge the everyday perception of what a co-living house could look and feel like by branding the houses she owns.
 						<br><br>
 						Before becoming a mother Jade's background was in retail store design and display. Jade is experienced in many areas of property investing including; co-living (HMO), buy-to-sell, serviced accommodation, co-working, and buy-to-let.</p>
 						<a class="button" href="/blog">Hear her story</a>

@@ -43,7 +43,7 @@ $frontpage_id = get_option( 'page_on_front' );
 									<span class="title-split__line">Your Space</span>
 								</div>
 							</h1>
-							<p class="home-intro__paragraph fadeUp">Bee Space is a design-led creative property company. We specialise in creating co-living and co-working spaces with a difference. We design and develop creative concepts which are unique in design and memorable in experience.</p>
+							<p class="home-intro__paragraph fadeUp">Beespace is a design-led creative property company. We specialise in creating co-living and co-working spaces with a difference. We design and develop creative concepts which are unique in design and memorable in experience.</p>
 							<div class="home-intro__buttons fadeUp">
 								<a href="#projects" class="button home-intro__button">Our work</a>
 								<a href="/about" class="button home-intro__button button--outline">Learn more</a>
@@ -77,97 +77,6 @@ $frontpage_id = get_option( 'page_on_front' );
 	</section>
 
 	<section class="pattern pattern--triangle"></section>
-
-	<section class="home-gallery">
-		<div class="container home-gallery__container">
-			<h2 class="home-gallery__title title-split">
-				<div class="title-split__mask">
-					<span class="title-split__line">Love what we do?</span>
-				</div>
-			</h2>
-			<p class="home-gallery__paragraph fadeUp">With bank interest rates at record lows it makes sense to make your money work for you. By choosing to invest into a property project with us we can guarantee you so much more of a desirable return on your investment, and most importantly a working relationship you can trust. We actively work with joint-venture partners and investors that share our values and vision. Why not come and follow us across our social media platforms to see what projects we are working on daily.</p>
-			<a href="/contact" class="button fadeUp">Let’s talk</a>
-		</div>
-		<div class="home-gallery__slider reveal">
-			<div class="home-gallery__slide"><div><img src="<?= get_template_directory_uri(); ?>/assets/img/gallery/gallery_one.jpg" /></div></div>
-			<div class="home-gallery__slide"><div><img src="<?= get_template_directory_uri(); ?>/assets/img/gallery/gallery_two.jpg" /></div></div>
-			<div class="home-gallery__slide"><div><img src="<?= get_template_directory_uri(); ?>/assets/img/gallery/gallery_three.jpg" /></div></div>
-		</div>
-		<h6 class="home-gallery__indication"></h6>
-		<div class="container home-gallery__container">
-			<div class="home-gallery__arrows">
-				<div class="home-gallery__prev home-gallery__arrow">
-					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-left.svg" />
-				</div>
-				<div class="home-gallery__next home-gallery__arrow">
-					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-right.svg" />
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="home-testimonials half-pattern">
-		<div class="half-pattern__inner reveal reveal--dark"></div>
-		<div class="container home-testimonials__container">
-			<div class="home-testimonials__icon fadeUp">
-				<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_quote.svg" />
-			</div>
-			<div class="home-testimonials__inner">
-				<div class="home-testimonials__item">
-					<h3 class="home-testimonials__title">We've had the pleasure of working with Jade over the past 12 months</h3>
-					<p class="home-testimonials__paragraph">and seeing her vision come to life on numerous projects. As well as a fantastic creative flair, she has a real passion for her work as well, ensuring her projects are delivered in the most professional way. Not only that, but she's a genuine nice person, which makes working with her fun as well as rewarding."</p>
-					<div class="home-testimonials__author fadeUp">
-						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_1.png" />
-						<div class="home-testimonials__author-right">
-							<strong>Mike Stenhouse </strong>
-							Inside Property Investing
-						</div>
-					</div>
-				</div>
-				<div class="home-testimonials__item">
-					<h3 class="home-testimonials__title title-split">We work with Jade on a regular basis, Her design ideas are second to none.</h3>
-					<p class="home-testimonials__paragraph fadeUp">She is professional yet friendly, nothing is too much trouble and we've built up a great relationship over the past few months. Simply looking at her Instagram page will give you design inspiration for your next project.“</p>
-					<div class="home-testimonials__author fadeUp">
-						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_2.png" />
-						<div class="home-testimonials__author-right">
-							<strong>Lisa Wild </strong>
-							Landlord Furniture
-						</div>
-					</div>
-				</div>
-				<div class="home-testimonials__item">
-					<h3 class="home-testimonials__title title-split">Bee Space turned a very tired, drab office block into a beautiful counselling space</h3>
-					<p class="home-testimonials__paragraph fadeUp">My clients say things like "I feel better just walking in here". Jade used natural materials and calming colours, resulting in a very pleasant place to do counselling work. Thank you Jade for your creativity and commitment to the vision of the Palmer House Wellbeing Centre (and for delivering on time). I would highly recommend working with Bee Space if you are looking to create something different that will stand out!"</p>
-					<div class="home-testimonials__author fadeUp">
-						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_3.png" />
-						<div class="home-testimonials__author-right">
-							<strong>Julia Palmer</strong>
-							Palmer House 
-						</div>
-					</div>
-				</div>
-				<div class="home-testimonials__item">
-					<h3 class="home-testimonials__title title-split">Working with Jade has been a GAME CHANGER for us</h3>
-					<p class="home-testimonials__paragraph fadeUp">We started working with Jade almost 12 months ago now. I first approched her to assist with the design of one of our HMO's, and as they say, the rest is history. Jade has been able to turn our rough ideas and themes into concepts we never could have dreamed of. She's elevated our projects to a level that established our brand and 26 projects later, I couldn't do it without her as part of the team. Approaching her was by far one of the best decisions we ever made. She has always delivered an amazing result. If you want your design ideas to become reality in your projects, Jade is the lady to speak to."</p>
-					<div class="home-testimonials__author fadeUp">
-						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_4.png" />
-						<div class="home-testimonials__author-right">
-							<strong>Grant Robe</strong>
-							ProVest Holdings Ltd
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="home-testimonials__arrows">
-				<div class="home-testimonials__prev home-testimonials__arrow">
-					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-left.svg" />
-				</div>
-				<div class="home-testimonials__next home-testimonials__arrow">
-					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-right.svg" />
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<?php
 
@@ -217,6 +126,97 @@ $frontpage_id = get_option( 'page_on_front' );
 	wp_reset_query();
 
 	?>
+
+	<section class="home-testimonials half-pattern">
+		<div class="half-pattern__inner reveal reveal--dark"></div>
+		<div class="container home-testimonials__container">
+			<div class="home-testimonials__icon fadeUp">
+				<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_quote.svg" />
+			</div>
+			<div class="home-testimonials__inner">
+				<div class="home-testimonials__item">
+					<h3 class="home-testimonials__title">We've had the pleasure of working with Jade over the past 12 months</h3>
+					<p class="home-testimonials__paragraph">and seeing her vision come to life on numerous projects. As well as a fantastic creative flair, she has a real passion for her work as well, ensuring her projects are delivered in the most professional way. Not only that, but she's a genuine nice person, which makes working with her fun as well as rewarding."</p>
+					<div class="home-testimonials__author fadeUp">
+						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_1.png" />
+						<div class="home-testimonials__author-right">
+							<strong>Mike Stenhouse </strong>
+							Inside Property Investing
+						</div>
+					</div>
+				</div>
+				<div class="home-testimonials__item">
+					<h3 class="home-testimonials__title title-split">We work with Jade on a regular basis, Her design ideas are second to none.</h3>
+					<p class="home-testimonials__paragraph fadeUp">She is professional yet friendly, nothing is too much trouble and we've built up a great relationship over the past few months. Simply looking at her Instagram page will give you design inspiration for your next project.“</p>
+					<div class="home-testimonials__author fadeUp">
+						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_2.png" />
+						<div class="home-testimonials__author-right">
+							<strong>Lisa Wild </strong>
+							Landlord Furniture
+						</div>
+					</div>
+				</div>
+				<div class="home-testimonials__item">
+					<h3 class="home-testimonials__title title-split">Beespace turned a very tired, drab office block into a beautiful counselling space</h3>
+					<p class="home-testimonials__paragraph fadeUp">My clients say things like "I feel better just walking in here". Jade used natural materials and calming colours, resulting in a very pleasant place to do counselling work. Thank you Jade for your creativity and commitment to the vision of the Palmer House Wellbeing Centre (and for delivering on time). I would highly recommend working with Beespace if you are looking to create something different that will stand out!"</p>
+					<div class="home-testimonials__author fadeUp">
+						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_3.png" />
+						<div class="home-testimonials__author-right">
+							<strong>Julia Palmer</strong>
+							Palmer House 
+						</div>
+					</div>
+				</div>
+				<div class="home-testimonials__item">
+					<h3 class="home-testimonials__title title-split">Working with Jade has been a GAME CHANGER for us</h3>
+					<p class="home-testimonials__paragraph fadeUp">We started working with Jade almost 12 months ago now. I first approched her to assist with the design of one of our HMO's, and as they say, the rest is history. Jade has been able to turn our rough ideas and themes into concepts we never could have dreamed of. She's elevated our projects to a level that established our brand and 26 projects later, I couldn't do it without her as part of the team. Approaching her was by far one of the best decisions we ever made. She has always delivered an amazing result. If you want your design ideas to become reality in your projects, Jade is the lady to speak to."</p>
+					<div class="home-testimonials__author fadeUp">
+						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_4.png" />
+						<div class="home-testimonials__author-right">
+							<strong>Grant Robe</strong>
+							ProVest Holdings Ltd
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="home-testimonials__arrows">
+				<div class="home-testimonials__prev home-testimonials__arrow">
+					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-left.svg" />
+				</div>
+				<div class="home-testimonials__next home-testimonials__arrow">
+					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-right.svg" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="home-gallery">
+		<div class="container home-gallery__container">
+			<h2 class="home-gallery__title title-split">
+				<div class="title-split__mask">
+					<span class="title-split__line">Love what we do?</span>
+				</div>
+			</h2>
+			<p class="home-gallery__paragraph fadeUp">With bank interest rates at record lows, it makes sense to make your money work for you. By choosing to invest in a property project with us we can guarantee you so much more of a desirable return on your investment, and most importantly a working relationship you can trust. We actively work with joint-venture partners and investors that share our values and vision. Why not come and follow us across our social media platforms to see what projects we are working on daily.</p>
+			<a href="/contact" class="button fadeUp">Let’s talk</a>
+		</div>
+		<div class="home-gallery__slider reveal">
+			<div class="home-gallery__slide"><div><img src="<?= get_template_directory_uri(); ?>/assets/img/gallery/gallery_one.jpg" /></div></div>
+			<div class="home-gallery__slide"><div><img src="<?= get_template_directory_uri(); ?>/assets/img/gallery/gallery_two.jpg" /></div></div>
+			<div class="home-gallery__slide"><div><img src="<?= get_template_directory_uri(); ?>/assets/img/gallery/gallery_three.jpg" /></div></div>
+		</div>
+		<h6 class="home-gallery__indication"></h6>
+		<div class="container home-gallery__container">
+			<div class="home-gallery__arrows">
+				<div class="home-gallery__prev home-gallery__arrow">
+					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-left.svg" />
+				</div>
+				<div class="home-gallery__next home-gallery__arrow">
+					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-right.svg" />
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<section class="footer-feature">
 		<div class="container footer-feature__container">

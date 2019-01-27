@@ -4,7 +4,7 @@
 	<div class="container footer__container">
 		<div class="footer__subscribe">
 			<h4 class="footer__subscribe-title">STAY IN THE KNOW</h4>
-			<p class="footer__subscribe-paragraph">Get the latest in all things Bee Space & property investment</p>
+			<p class="footer__subscribe-paragraph">Get the latest in all things Beespace & property investment</p>
 			<div class="footer__subscribe-form">
 				<input type="email" class="footer__subscribe-input" placeholder="Enter your email address" />
 				<button type="submit" class="button footer__subscribe-button">Join</button>
@@ -29,7 +29,7 @@
 		</div>
 		<div class="footer__bottom">
 			<div class="footer__bottom-left">
-				<img src="<?= get_template_directory_uri(); ?>/assets/img/logo-white.svg" /> © 2019 Bee Space. All rights reserved.
+				<img src="<?= get_template_directory_uri(); ?>/assets/img/logo-white.svg" /> © 2019 Beespace. All rights reserved.
 			</div>
 			<div class="footer__bottom-right">
 				<?php

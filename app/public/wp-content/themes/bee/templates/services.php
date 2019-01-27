@@ -39,10 +39,10 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 					<h3 class="services-intro__title">Concept</h3>
 					<p class="services-intro__paragraph">We design for you. By talking to you, we learn what you feel inspired by. We then look at how we can creatively apply that into a bespoke concept tailored to your property investment area and strategy. We want you to feel passionate and proud about the property brand we create for you.</p>
 				</div>
-				<div class="services-intro__third fadeUp" data-delay="400">
+				<div class="services-intro__third fadeUp" data-delay="200">
 					<img class="services-intro__icon" src="<?= get_template_directory_uri(); ?>/assets/img/icon_bedroom.svg" alt="Intro"/>
 					<h3 class="services-intro__title">Investment</h3>
-					<p class="services-intro__paragraph">By committing and investing into your property you are investing into yourself. Through the use of our creative property concepts we’ve seen landlords achieve 30%+ higher then average rents, often with waiting lists for the property of potential new tenants. Lower void periods and maintenance issues. It’s a no brainer.</p>
+					<p class="services-intro__paragraph">By committing and investing into your property you are investing into yourself. Through the use of our creative property concepts we’ve seen landlords achieve 30%+ higher than average rents, often with waiting lists for the property of potential new tenants. Lower void periods and maintenance issues. It’s a no brainer.</p>
 				</div>
 				<div class="services-intro__third fadeUp" data-delay="400">
 					<img class="services-intro__icon" src="<?= get_template_directory_uri(); ?>/assets/img/icon_house-plan.svg" alt="Intro"/>
@@ -90,7 +90,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 				<div class="services-breakdown__item fadeUp">
 					<div class="services-breakdown__item-number"><div></div>4</div>
 					<h3 class="services-breakdown__item-title">Furniture & Lighting</h3>
-					<p class="services-breakdown__item-paragraph">Detailed CAD drawings will be created that will whow all key layouts, including furniture and lighting.</p>
+					<p class="services-breakdown__item-paragraph">Detailed CAD drawings will be created that will show all key layouts, including furniture and lighting.</p>
 				</div>
 				<div class="services-breakdown__item fadeUp">
 					<div class="services-breakdown__item-number"><div></div>5</div>
@@ -149,7 +149,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 							<span class="title-split__line title__highlight">Projects</span>
 						</div>
 					</h1>
-					<p class="services-projects__paragraph fadeUp">We’ve had the pleasure of working on some great projects. Some for ourselves, some for others with like minded investors that share our values, and belive that being design-led and original is the way forward.</p>
+					<p class="services-projects__paragraph fadeUp">We’ve had the pleasure of working on some great projects. Some for ourselves, some for others with like-minded investors that share our values, and believe that being design-led and original is the way forward.</p>
 					<a class="button fadeUp" href="/#projects">Our Work</a>
 				</div>
 			</div>
