@@ -115,7 +115,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 				<div class="services-breakdown__item fadeUp">
 					<div class="services-breakdown__item-number"><div></div>9</div>
 					<h3 class="services-breakdown__item-title">To Market</h3>
-					<p class="services-breakdown__item-paragraph">Jade Bailey is the Creative Director and founder of Beespace. As a property owner herself, she wanted to challenge the everyday perception of what a co-living house could look and feel like by</p>
+					<p class="services-breakdown__item-paragraph">As soon as you receive your professional photographs - you're good to go! With a property you can be proud of.</p>
 				</div>
 			</div>
 		</div>
@@ -154,7 +154,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 				</div>
 			</div>
 		</div>
-		<div class="services-projects__right reveal reveal--dark" style="background-image: url('http://beespace.local/wp-content/uploads/2019/01/69wallbrook-69.jpg');">
+		<div class="services-projects__right reveal reveal--dark" style="background-image: url('<?php echo get_site_url(); ?>/wp-content/uploads/2019/01/69wallbrook-69.jpg');">
 		</div>
 	</section>
 

@@ -106,47 +106,6 @@ $frontpage_id = get_option( 'page_on_front' );
 		</div>
 	</section>
 
-	<!-- <section class="home-projects">
-		<div class="container home-projects__container">
-			<div class="home-projects__top">
-				<h2 class="home-projects__title">Our Projects</h2>
-				<a href="/" class="button home-projects__button">View all projects</a>
-			</div>
-			<div class="home-projects__list">
-				<div class="home-projects__item home-projects__item--half">
-					<div class="home-projects__item-inner">
-						<h3 class="home-projects__item-title">Palmer<br>House</h3>
-						<div class="home-projects__item-image" style="background-image: url('<?= get_template_directory_uri(); ?>/assets/img/projects/project_palmer.jpg');"></div>
-					</div>
-				</div>
-				<div class="home-projects__item home-projects__item--half">
-					<div class="home-projects__item-inner">
-						<h3 class="home-projects__item-title">Garden<br>Lane</h3>
-						<div class="home-projects__item-image" style="background-image: url('<?= get_template_directory_uri(); ?>/assets/img/projects/project_garden.jpg');"></div>
-					</div>
-				</div>
-				<div class="home-projects__item home-projects__item--full">
-					<div class="home-projects__item-inner">
-						<h3 class="home-projects__item-title">Wallbrook<br>Road</h3>
-						<div class="home-projects__item-image" style="background-image: url('<?= get_template_directory_uri(); ?>/assets/img/projects/project_wallbrook.jpg');"></div>
-					</div>
-				</div>
-				<div class="home-projects__item home-projects__item--half">
-					<div class="home-projects__item-inner">
-						<h3 class="home-projects__item-title">Stanton<br>Place</h3>
-						<div class="home-projects__item-image" style="background-image: url('<?= get_template_directory_uri(); ?>/assets/img/projects/project_stanton.jpg');"></div>
-					</div>
-				</div>
-				<div class="home-projects__item home-projects__item--half">
-					<div class="home-projects__item-inner">
-						<h3 class="home-projects__item-title">Meadow<br>View Road</h3>
-						<div class="home-projects__item-image" style="background-image: url('<?= get_template_directory_uri(); ?>/assets/img/projects/project_meadow.jpg');"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
 	<section class="home-testimonials half-pattern">
 		<div class="half-pattern__inner reveal reveal--dark"></div>
 		<div class="container home-testimonials__container">
