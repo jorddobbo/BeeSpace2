@@ -61,6 +61,31 @@ if( have_rows('page_builder') ): ?>
        			
        		</section>
 
+        <?php elseif( get_row_layout() == 'edge_to_edge_image' ):?>
+
+            <?php 
+
+            $img = get_sub_field('edge_to_edge_image');
+            $url = $img['url'];
+            $caption = $img['caption'];
+
+            ?>
+
+            <section class="project-edge">
+
+                <div class="project-edge__inner">
+                    <img src="<?php echo $url ?>" />
+                    <?php if( $caption ): ?>
+                        <div class="project-edge__caption-wrap container">
+                            <div class="project-edge__caption">
+                                <?php echo $caption ?>
+                            </div>
+                        </div>
+                    <?php endif; ?>
+                </div>
+                
+            </section>
+
         <?php elseif( get_row_layout() == 'split_width_image' ): ?>
 
         	<?php 
@@ -121,7 +146,7 @@ if( have_rows('page_builder') ): ?>
 
         <?php elseif( get_row_layout() == 'text_area' ): ?>
 
-        	Text Area
+        	<?php echo the_sub_field('text_area'); ?>
 
         <?php endif;
 

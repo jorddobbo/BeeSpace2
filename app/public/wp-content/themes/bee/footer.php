@@ -12,8 +12,8 @@
 		</div>
 		<div class="footer__middle">
 			<div class="footer__middle-item">
-				<h6 class="footer__middle-subtitle">Get in touch</h6>
-				<h4 class="footer__middle-title">07734883890</h4>
+				<h6 class="footer__middle-subtitle">The Hive</h6>
+				<h4 class="footer__middle-title"><a href="/blog">Latest News <img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-right.svg" /></a></h4>
 			</div>
 			<div class="footer__middle-item">
 				<h6 class="footer__middle-subtitle">Email us</h6>

@@ -156,6 +156,42 @@
 	}
 }
 
+.project-edge {
+	padding: 0 0 40px 0;
+
+	img {
+		width: 100%;
+	}
+
+	@media screen and (min-width: 600px) {
+		padding: 0 0 140px 0;
+	}
+}
+
+.project-edge__container {
+	position: relative;
+}
+
+.project-edge__caption {
+	position: relative;
+    color: #fff;
+    background: #111;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 6px 13px;
+    font-size: 10px;
+    top: -16px;
+    margin: 0;
+
+    @media screen and (min-width: 600px) {
+	    padding: 12px 20px;
+	    font-size: 13px;
+	    top: -23px;
+    	margin: 0;
+	}
+}
+
 .project-split {
 	padding: 0 0 40px 0;
 
