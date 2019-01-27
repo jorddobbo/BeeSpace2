@@ -1220,6 +1220,8 @@ textarea {
 @media screen and (min-width: 1200px) {
     .footer-chat {
       padding: 140px 0; } }
+.footer-chat--projects {
+  padding-top: 0; }
 .footer-chat__title {
   font-size: 80px;
   margin: 0;

@@ -137,5 +137,15 @@ endif;
 
 ?>
 
+<section class="footer-chat footer-chat--projects">
+        <div class="footer-chat__container container">
+            <h2 class="footer-chat__title">
+                <div class="title-split__mask">
+                    <span class="title-split__line"><a href="/#projects">Back to Projects <img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-dark-right.svg"></a></span>
+                </div>
+            </h2>
+        </div>
+    </section>
+
 <?php endwhile; ?>
 <?php get_footer() ?>
