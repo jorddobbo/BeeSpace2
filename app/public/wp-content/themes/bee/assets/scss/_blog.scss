@@ -149,6 +149,11 @@
         margin: 2em 0;
     }
 
+    ul {
+        margin-left: 20px;
+        list-style-type: circle;
+    }
+
     figcaption {
         position: relative;
         top: -17px;
@@ -186,6 +191,14 @@
 
     .blocks-gallery-item {
         margin: 0 !important;
+    }
+
+    .wp-block-blockgallery-masonry,
+    .wp-block-blockgallery-stacked {
+        position: relative;
+        width: 120%;
+        max-width: 120%;
+        margin-left: -10%;
     }
 
     @media screen and (min-width: 600px) {

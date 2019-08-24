@@ -167,17 +167,6 @@ $frontpage_id = get_option( 'page_on_front' );
 						</div>
 					</div>
 				</div>
-				<div class="home-testimonials__item">
-					<h3 class="home-testimonials__title title-split">Working with Jade has been a GAME CHANGER for us</h3>
-					<p class="home-testimonials__paragraph fadeUp">We started working with Jade almost 12 months ago now. I first approched her to assist with the design of one of our HMO's, and as they say, the rest is history. Jade has been able to turn our rough ideas and themes into concepts we never could have dreamed of. She's elevated our projects to a level that established our brand and 26 projects later, I couldn't do it without her as part of the team. Approaching her was by far one of the best decisions we ever made. She has always delivered an amazing result. If you want your design ideas to become reality in your projects, Jade is the lady to speak to."</p>
-					<div class="home-testimonials__author fadeUp">
-						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_4.png" />
-						<div class="home-testimonials__author-right">
-							<strong>Grant Robe</strong>
-							ProVest Holdings Ltd
-						</div>
-					</div>
-				</div>
 			</div>
 			<div class="home-testimonials__arrows">
 				<div class="home-testimonials__prev home-testimonials__arrow">
@@ -225,6 +214,7 @@ $frontpage_id = get_option( 'page_on_front' );
 				<div class="footer-feature__item fadeUp"><a target="_blank" href="https://www.insidepropertyinvesting.com/jade-bailey-mansfield-hmo-3/"><img src="<?= get_template_directory_uri(); ?>/assets/img/feature_inside.png" /></a></div>
 				<div class="footer-feature__item fadeUp"><img src="<?= get_template_directory_uri(); ?>/assets/img/feature_property.png" /></div>
 				<div class="footer-feature__item fadeUp"><img src="<?= get_template_directory_uri(); ?>/assets/img/feature_hmo.png" /></div>
+				<div class="footer-feature__item fadeUp"><img src="<?= get_template_directory_uri(); ?>/assets/img/feature_notts.png" /></div>
 			</div>
 		</div>
 	</section>
