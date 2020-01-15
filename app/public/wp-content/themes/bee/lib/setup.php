@@ -78,9 +78,9 @@ add_action('widgets_init', __NAMESPACE__ . '\\widgets_init');
 /**
  * Theme assets
  */
-
+	 
 function assets() {
-	wp_enqueue_style('aves/css', Assets\asset_path('dist/main.css'), false, null);
+	wp_enqueue_style('aves/css', Assets\asset_path('dist/main.css'), array(), 1 );
 	wp_enqueue_style('slick', Assets\asset_path('js/modules/slick.css'), false, null);
 	wp_enqueue_script('aves/barba', Assets\asset_path('js/modules/barba.min.js'), false, null);
 	wp_enqueue_script('insta', '//platform.instagram.com/en_US/embeds.js', array(), '3', true);
