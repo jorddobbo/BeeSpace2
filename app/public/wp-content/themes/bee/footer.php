@@ -40,6 +40,7 @@
 				<a target="_blank" href="https://www.pinterest.co.uk/jade5115/"><img src="<?= get_template_directory_uri(); ?>/assets/img/social_pi.svg" /></a>
 				<a target="_blank" href="https://www.facebook.com/beespaceproperty/"><img src="<?= get_template_directory_uri(); ?>/assets/img/social_fb.svg" /></a>
 				<a target="_blank" href="https://www.linkedin.com/in/jade-bailey-0b108584/?originalSubdomain=uk"><img src="<?= get_template_directory_uri(); ?>/assets/img/social_in.svg" /></a>
+				<a target="_blank" href="https://www.youtube.com/channel/UCj4OzA8oFX9tmcPJy5hJaIA"><img src="<?= get_template_directory_uri(); ?>/assets/img/social_yt.svg" /></a>
 			</div>
 		</div>
 		<div class="footer__bottom">

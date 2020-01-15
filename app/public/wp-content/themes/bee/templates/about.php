@@ -43,6 +43,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 							<a target="_blank" href="https://www.pinterest.co.uk/jade5115/"><img src="<?= get_template_directory_uri(); ?>/assets/img/social_pi-dark.svg" /></a>
 							<a target="_blank" href="https://www.facebook.com/beespaceproperty/"><img src="<?= get_template_directory_uri(); ?>/assets/img/social_fb-dark.svg" /></a>
 							<a target="_blank" href="https://www.linkedin.com/in/jade-bailey-0b108584/?originalSubdomain=uk"><img src="<?= get_template_directory_uri(); ?>/assets/img/social_in-dark.svg" /></a>
+							<a target="_blank" href="https://www.youtube.com/channel/UCj4OzA8oFX9tmcPJy5hJaIA"><img src="<?= get_template_directory_uri(); ?>/assets/img/social_yt-dark.svg" /></a>
 						</div>
 						<p class="about-jade__paragraph">Jade Bailey is the Creative Director and Founder of Beespace. As a property investor and developer herself, she wants to challenge the everyday perception of what a co-living house could look and feel like by branding the houses she owns.
 						<br><br>

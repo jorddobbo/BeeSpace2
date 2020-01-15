@@ -835,10 +835,20 @@ textarea {
   line-height: 1.8;
   font-weight: 500;
   text-decoration: none;
-  border: 1px solid #FFE424; }
+  border: 1px solid #FFE424;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+.button:hover {
+    -webkit-transform: translateY(3px);
+        -ms-transform: translateY(3px);
+            transform: translateY(3px);
+    background-color: #f0d200; }
 .button--outline {
   border: 1px solid #141313;
   background-color: transparent; }
+.button--outline:hover {
+    background-color: transparent;
+    border-color: rgba(20, 19, 19, 0.5); }
 .header {
   position: absolute;
   top: 0;
@@ -1159,7 +1169,8 @@ textarea {
     margin: -10px 0 0 10px;
     width: 40px; }
 .footer__middle-social img {
-  margin: 0 20px 0 0; }
+  margin: 0 20px 0 0;
+  width: 30px; }
 @media screen and (min-width: 600px) {
   .footer__middle-social img {
     margin: 0 10px 0; } }
@@ -1270,6 +1281,50 @@ textarea {
     .home-hero__title {
       width: auto;
       font-size: calc(20px + 7vw); } }
+.home-hero__event {
+  position: relative;
+  top: 0;
+  width: 80%;
+  max-width: 800px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f5ea36;
+  padding: 0px 20px 0 0;
+  margin: 40px 0 0 0;
+  text-decoration: none;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out; }
+.home-hero__event img {
+    width: 150px; }
+.home-hero__event p {
+    color: #111;
+    margin: 0;
+    padding: 20px 20px 20px 0;
+    line-height: 1.4em; }
+.home-hero__event .button {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    -webkit-transform: translateY(0) !important;
+        -ms-transform: translateY(0) !important;
+            transform: translateY(0) !important; }
+.home-hero__event:hover {
+    top: 3px;
+    opacity: 0.7; }
+@media screen and (max-width: 850px) {
+    .home-hero__event {
+      display: block;
+      width: 90%;
+      padding: 0px 20px 20px 20px; }
+      .home-hero__event img {
+        display: none; } }
 .home-hero__indication {
   position: absolute;
   left: 0;
@@ -1740,6 +1795,7 @@ textarea {
 .about-jade__social {
   padding: 0 0 30px 0; }
 .about-jade__social img {
+    width: 30px;
     margin: 0 15px 0 0; }
 .services-intro {
   border-bottom: 1px solid rgba(20, 19, 19, 0.15);

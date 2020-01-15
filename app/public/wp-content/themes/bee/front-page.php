@@ -21,6 +21,18 @@ $frontpage_id = get_option( 'page_on_front' );
 							<span class="title-split__line title__highlight">Think <br>Differently</span>
 						</div>
 					</h1>
+
+					<?php
+					$exp_date = new DateTime("2020-01-23", new DateTimeZone("Europe/London"));
+					$today = new DateTime();
+					if($today < $exp_date) { ?>
+					   <a class="home-hero__event fadeUp" target="_blank" href="https://www.eventbrite.co.uk/e/property-design-branding-day-with-beespace-tickets-89996079697">
+							<img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F87796837%2F131386007893%2F1%2Foriginal.20200115-161019?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C763%2C1276%2C638&s=90b50ee3486af4f9354b852648699ecc" class="home-hero__event-img" />
+							<p>Join us on <strong>22nd February</strong> for our 1 day Property Design & Branding Workshop</p>
+							<div class="button button--outline">Book Now</div>
+						</a>
+					<?php }
+					?>
 				</div>
 				<div class="home-hero__indication fadeUp">
 					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow.svg" />
