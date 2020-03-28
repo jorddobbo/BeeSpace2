@@ -4,6 +4,8 @@ get_header();
 
 $frontpage_id = get_option( 'page_on_front' );
 
+$image = get_field('home-intro-img');
+
 ?>
 
 <div class="page-content">
@@ -35,7 +37,7 @@ $frontpage_id = get_option( 'page_on_front' );
 					?>
 				</div>
 				<div class="home-hero__indication fadeUp">
-					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow.svg" />
+					<img src="$image" />
 				</div>
 			</div>
 		</div>
@@ -63,7 +65,7 @@ $frontpage_id = get_option( 'page_on_front' );
 						</div>
 					</div>
 					<div class="home-intro__half reveal">
-						<img src="<?= get_template_directory_uri(); ?>/assets/img/intro_1.jpg" alt="Intro"/>
+						<img src="<?php echo $image['url'] ?>" alt="Intro"/>
 					</div>
 				</div>
 			</div>
@@ -201,11 +203,27 @@ $frontpage_id = get_option( 'page_on_front' );
 			<p class="home-gallery__paragraph fadeUp">With bank interest rates at record lows, it makes sense to make your money work for you. By choosing to invest in a property project with us we can guarantee you so much more of a desirable return on your investment, and most importantly a working relationship you can trust. We actively work with joint-venture partners and investors that share our values and vision. Why not come and follow us across our social media platforms to see what projects we are working on daily.</p>
 			<a href="/contact" class="button fadeUp">Let’s talk</a>
 		</div>
-		<div class="home-gallery__slider reveal">
-			<div class="home-gallery__slide"><div><img src="<?= get_template_directory_uri(); ?>/assets/img/gallery/gallery_one.jpg" /></div></div>
-			<div class="home-gallery__slide"><div><img src="<?= get_template_directory_uri(); ?>/assets/img/gallery/gallery_two.jpg" /></div></div>
-			<div class="home-gallery__slide"><div><img src="<?= get_template_directory_uri(); ?>/assets/img/gallery/gallery_three.jpg" /></div></div>
-		</div>
+
+		<?php if( have_rows('home-slider') ): ?>
+
+			<div class="home-gallery__slider reveal">
+
+				<?php while( have_rows('home-slider') ): the_row(); 
+
+					$homeSliderImg = get_sub_field('home-slider-img'); ?>
+
+					<div class="home-gallery__slide"><div>
+
+						<img src="<?php echo $homeSliderImg['url']; ?>" alt="<?php echo $homeSliderImg['alt'] ?>" />
+
+					</div></div>
+
+				<?php endwhile; ?>
+
+			</div>
+
+		<?php endif; ?>
+
 		<h6 class="home-gallery__indication"></h6>
 		<div class="container home-gallery__container">
 			<div class="home-gallery__arrows">
