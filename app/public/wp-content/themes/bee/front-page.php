@@ -37,7 +37,7 @@ $image = get_field('home-intro-img');
 					?>
 				</div>
 				<div class="home-hero__indication fadeUp">
-					<img src="$image" />
+					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow.svg" />
 				</div>
 			</div>
 		</div>
