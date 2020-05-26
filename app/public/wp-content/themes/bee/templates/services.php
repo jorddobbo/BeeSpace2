@@ -150,7 +150,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 			<div class="services-downloads__column">
 				<h3>1-2-1 Consultancy</h3>
 				
-				<a class="button fadeUp" target="_blank" href="https://bee-space.co.uk/wp-content/uploads/2020/05/HMO-Mastermind-NEW-compressed.pdf">Download 1-2-1 Consultancy PDF</a>
+				<a class="button fadeUp" target="_blank" href="https://bee-space.co.uk/wp-content/uploads/2020/05/121-Consultancy-compressed-1.pdf">Download 1-2-1 Consultancy PDF</a>
 			</div>
 		</div>
 	</section>
