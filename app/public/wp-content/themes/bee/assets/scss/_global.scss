@@ -126,6 +126,20 @@ textarea {
     }
 }
 
+.pattern--dark {
+    background-color: #fff;
+    height: 130px;
+    background-image: url('../img/pattern_triangle-dark.svg');
+    background-size: auto 205%;
+    background-position: 50% 48%;
+    border-bottom: 0.1em solid $dark;
+
+    @media screen and (max-width: 600px) {
+        height: 70px;
+        border-bottom: 1px solid $dark;
+    }
+}
+
 .barba-overlay {
     background: #acc836;
     top: 0;

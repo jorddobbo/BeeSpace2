@@ -197,6 +197,32 @@ $image = get_field('home-intro-img');
 		<div class="container home-gallery__container">
 			<h2 class="home-gallery__title title-split">
 				<div class="title-split__mask">
+					<span class="title-split__line">Videos</span>
+				</div>
+			</h2>
+			<style>
+
+			.video--one {
+				margin: 120px 0;
+			}
+
+			@media screen and (max-width: 800px) {
+				.video--one {
+					margin: 40px 0;
+				}
+			}
+
+			.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container video--one'><iframe src='https://www.youtube.com/embed/vxLmAD1zcwU' frameborder='0' allowfullscreen></iframe></div>
+			<div class='embed-container'><iframe src='https://www.youtube.com/embed/QP4gfZ-uQ6g' frameborder='0' allowfullscreen></iframe></div>
+		</div>
+	</section>
+
+	<section class="pattern pattern--triangle pattern--dark"></section>
+
+	<section class="home-gallery">
+		<div class="container home-gallery__container">
+			<h2 class="home-gallery__title title-split">
+				<div class="title-split__mask">
 					<span class="title-split__line">Love what we do?</span>
 				</div>
 			</h2>
