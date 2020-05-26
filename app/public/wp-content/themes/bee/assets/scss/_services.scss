@@ -247,3 +247,45 @@
         width: 50%;
     }
 }
+
+.services-downloads {
+    padding: 0 0 50px 0;
+
+    h3 {
+    	text-align: center;
+    	margin: 0 0 50px 0;
+    }
+
+    @media screen and (min-width: 600px) {
+        padding: 0 0 70px 0;
+    }
+
+    @media screen and (min-width: 800px) {
+        padding: 0 0 100px 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 0 0 140px 0;
+    }
+}
+
+.services-downloads__container {
+	@media screen and (min-width: 800px) {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.services-downloads__column {
+	text-align: center;
+	margin-bottom: 40px;
+
+	@media screen and (min-width: 800px) {
+		width: calc(50% - 100px);
+		margin-bottom: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

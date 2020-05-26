@@ -1982,6 +1982,39 @@ textarea {
       position: absolute;
       bottom: 0;
       width: 50%; } }
+.services-downloads {
+  padding: 0 0 50px 0; }
+.services-downloads h3 {
+    text-align: center;
+    margin: 0 0 50px 0; }
+@media screen and (min-width: 600px) {
+    .services-downloads {
+      padding: 0 0 70px 0; } }
+@media screen and (min-width: 800px) {
+    .services-downloads {
+      padding: 0 0 100px 0; } }
+@media screen and (min-width: 1200px) {
+    .services-downloads {
+      padding: 0 0 140px 0; } }
+@media screen and (min-width: 800px) {
+  .services-downloads__container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
+.services-downloads__column {
+  text-align: center;
+  margin-bottom: 40px; }
+@media screen and (min-width: 800px) {
+    .services-downloads__column {
+      width: calc(50% - 100px);
+      margin-bottom: 0; } }
+.services-downloads__column:last-child {
+    margin-bottom: 0; }
 .project-hero {
   position: relative; }
 .project-hero__container {

@@ -139,6 +139,22 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 		</div>
 	</section>
 
+	<section class="services-downloads">
+		<div class="services-downloads__container container">
+			<div class="services-downloads__column">
+				<h3>Design Guide</h3>
+				
+				<a class="button fadeUp" target="_blank" href="https://bee-space.co.uk/wp-content/uploads/2020/05/Beespace-Short-Stays-DESIGN-GUIDE-1.pdf">Download Design Guide PDF</a>
+			</div>
+
+			<div class="services-downloads__column">
+				<h3>1-2-1 Consultancy</h3>
+				
+				<a class="button fadeUp" target="_blank" href="https://bee-space.co.uk/wp-content/uploads/2020/05/HMO-Mastermind-NEW-compressed.pdf">Download 1-2-1 Consultancy PDF</a>
+			</div>
+		</div>
+	</section>
+
 	<section class="services-projects">
 		<div class="services-projects__container container">
 			<div class="services-projects__left">
