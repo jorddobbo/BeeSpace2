@@ -1,0 +1,94 @@
+.modal-window {
+  position: fixed;
+  background-color: rgba($dark, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  &:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modal__inner {
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 40px;
+  }
+  header {
+    font-weight: bold;
+  }
+  h3 {
+    text-align: center;
+    margin: 0 0 25px;
+  }
+  .button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  p {
+    margin: 0;
+  }
+  input[type="text"], input[type="email"], textarea {
+    border-color: $dark;
+    color: $dark;
+
+    &::-webkit-input-placeholder {
+      color: $dark;
+    }
+
+    &::-moz-placeholder {
+      color: $dark;
+    }
+
+    &:-ms-input-placeholder {
+      color: $dark;
+    }
+
+    &:-moz-placeholder {
+      color: $dark;
+    }
+  }
+}
+
+.modal-close {
+  color: rgba(#fff, 0.9);
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  background: $dark;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.iframe-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

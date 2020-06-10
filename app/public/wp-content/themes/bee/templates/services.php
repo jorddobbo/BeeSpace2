@@ -8,6 +8,22 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 
 ?>
 
+	<div id="design-modal" class="modal-window">
+	    <a href="#" title="Close" class="modal-close">Close</a>
+	    <div class="modal__inner">
+	    	<h3>Download PDF</h3>
+		    <?php echo do_shortcode('[contact-form-7 id="665" title="Design Guide"]'); ?>
+		</div>
+	</div>
+
+	<div id="consultancy-modal" class="modal-window">
+	    <a href="#" title="Close" class="modal-close">Close</a>
+	    <div class="modal__inner">
+	    	<h3>Download PDF</h3>
+		    <?php echo do_shortcode('[contact-form-7 id="666" title="Consultancy"]'); ?>
+		</div>
+	</div>
+
 	<div class="page-hero">
 		<div class="page-hero__right" style="background-image: url('<?= $featured_img_url ?>');">
 		</div>
@@ -144,13 +160,13 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 			<div class="services-downloads__column">
 				<h3>Design Guide</h3>
 				
-				<a class="button fadeUp" target="_blank" href="https://bee-space.co.uk/wp-content/uploads/2020/05/Beespace-Short-Stays-DESIGN-GUIDE-1.pdf">Download Design Guide PDF</a>
+				<a class="button fadeUp no-barba" href="#design-modal">Download Design Guide PDF</a>
 			</div>
 
 			<div class="services-downloads__column">
 				<h3>1-2-1 Consultancy</h3>
 				
-				<a class="button fadeUp" target="_blank" href="https://bee-space.co.uk/wp-content/uploads/2020/05/121-Consultancy-compressed-1.pdf">Download 1-2-1 Consultancy PDF</a>
+				<a class="button fadeUp no-barba" href="#consultancy-modal">Download 1-2-1 Consultancy PDF</a>
 			</div>
 		</div>
 	</section>
