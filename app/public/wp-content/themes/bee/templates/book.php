@@ -24,7 +24,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 							</div>
 						</h1>
 						<div class="book-hero__paragraph fadeUp"><?php echo the_content() ?></div>
-						<a href="<?php echo the_field('download_link') ?>" class="button">Download</a>
+						<div class="book-hero__download"><?php echo the_field('download_link') ?></div>
 					</div>
 				</div>
 				<div class="book-hero__book">
