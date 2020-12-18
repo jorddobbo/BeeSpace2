@@ -2576,16 +2576,15 @@ div.wpcf7-response-output {
       margin: 0 0 60px 0; } }
 
 .book-hero__paragraph {
-  margin: 0 0 30px 0; }
+  margin: 0; }
   @media screen and (min-width: 1200px) {
     .book-hero__paragraph {
-      font-size: 22px;
-      margin: 0 0 60px 0; } }
+      font-size: 22px; } }
 
-.book-hero__download input[type="email"] {
+.book-hero input[type="email"] {
   color: #141313;
   border-color: #141313; }
-.book-hero__download .footer__subscribe-button {
+.book-hero .footer__subscribe-button {
   color: #141313; }
 
 /*# sourceMappingURL=main.css.map */
