@@ -2582,4 +2582,10 @@ div.wpcf7-response-output {
       font-size: 22px;
       margin: 0 0 60px 0; } }
 
+.book-hero__download input[type="email"] {
+  color: #141313;
+  border-color: #141313; }
+.book-hero__download .footer__subscribe-button {
+  color: #141313; }
+
 /*# sourceMappingURL=main.css.map */
