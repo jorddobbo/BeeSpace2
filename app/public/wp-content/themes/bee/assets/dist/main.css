@@ -2341,11 +2341,10 @@ textarea {
     border-bottom: 1px solid #222729;
     text-decoration: none;
     color: #111; }
+  .blog-content .slick-slider {
+    margin-left: 0; }
   .blog-content .wp-block-image {
     padding: 60px 0; }
-    .blog-content .wp-block-image img {
-      max-width: 120%;
-      margin-left: -10%; }
   .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
     padding: 10px 0 0 0;
     color: #141313; }
@@ -2381,10 +2380,7 @@ textarea {
     margin: 0 !important; }
   .blog-content .wp-block-blockgallery-masonry,
   .blog-content .wp-block-blockgallery-stacked {
-    position: relative;
-    width: 120%;
-    max-width: 120%;
-    margin-left: -10%; }
+    position: relative; }
   @media screen and (min-width: 600px) {
     .blog-content {
       padding: 70px 0; } }

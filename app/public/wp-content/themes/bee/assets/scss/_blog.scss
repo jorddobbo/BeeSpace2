@@ -131,13 +131,12 @@
         color: #111;
     }
 
+    .slick-slider {
+        margin-left: 0;
+    }
+
     .wp-block-image {
         padding: 60px 0;
-
-        img {
-            max-width: 120%;
-            margin-left: -10%;
-        }
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -196,9 +195,6 @@
     .wp-block-blockgallery-masonry,
     .wp-block-blockgallery-stacked {
         position: relative;
-        width: 120%;
-        max-width: 120%;
-        margin-left: -10%;
     }
 
     @media screen and (min-width: 600px) {

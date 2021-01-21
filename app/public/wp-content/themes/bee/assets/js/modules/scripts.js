@@ -71,7 +71,9 @@ export default function() {
 		Barba.Pjax.start();
 		Barba.Prefetch.init();
 
-		$(window).trigger('resize');
+		setTimeout(function(){
+			$(window).trigger('resize');
+		}, 200);
 
 	});
 
