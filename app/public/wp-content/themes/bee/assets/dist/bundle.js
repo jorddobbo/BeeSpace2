@@ -14188,7 +14188,9 @@ exports.default = function () {
 		Barba.Pjax.start();
 		Barba.Prefetch.init();
 
-		$(window).trigger('resize');
+		setTimeout(function () {
+			$(window).trigger('resize');
+		}, 200);
 	});
 
 	Barba.Dispatcher.on('transitionCompleted', function (currentStatus, oldStatus, container, rawHTML) {
