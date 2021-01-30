@@ -33,10 +33,10 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 					<div class="page-hero__left-inner">
 						<h1 class="page-hero__title title title-split">
 							<div class="title-split__mask">
-								<span class="title-split__line">Our</span>
+								<span class="title-split__line">Work</span>
 							</div>
 							<div class="title-split__mask">
-								<span class="title-split__line title__highlight">Services</span>
+								<span class="title-split__line title__highlight">With Me</span>
 							</div>
 						</h1>
 						<p class="page-hero__paragraph fadeUp"><?php echo the_field('intro_copy'); ?></p>
