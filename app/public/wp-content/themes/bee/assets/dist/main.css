@@ -2069,7 +2069,8 @@ textarea {
     left: 50%;
     margin-left: -30px; }
   .services-testimonials .home-testimonials__inner {
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 80%; }
   .services-testimonials .home-testimonials__author {
     justify-content: center; }
   @media screen and (min-width: 800px) {
