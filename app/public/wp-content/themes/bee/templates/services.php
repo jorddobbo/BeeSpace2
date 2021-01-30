@@ -111,7 +111,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 								<?php echo get_sub_field('author_company'); ?>
 							</div>
 						</div>
-					</div>  
+					</div>
 
 				    <?php endwhile; endif; ?>
 
@@ -212,22 +212,6 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 						<a class="button" href="<?php echo $block_four['button_link'] ?>"><?php echo $block_four['button_text'] ?></a>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="services-downloads">
-		<div class="services-downloads__container container">
-			<div class="services-downloads__column">
-				<h3>Design Guide</h3>
-				
-				<a class="button fadeUp no-barba" href="#design-modal">Download Design Guide PDF</a>
-			</div>
-
-			<div class="services-downloads__column">
-				<h3>1-2-1 Consultancy</h3>
-				
-				<a class="button fadeUp no-barba" href="#consultancy-modal">Download 1-2-1 Consultancy PDF</a>
 			</div>
 		</div>
 	</section>
