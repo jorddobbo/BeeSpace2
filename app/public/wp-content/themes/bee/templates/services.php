@@ -39,7 +39,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 								<span class="title-split__line title__highlight">Services</span>
 							</div>
 						</h1>
-						<p class="page-hero__paragraph fadeUp">Do you want to be a leading landlord in your area and disrupt the market? Do you want to achieve the highest rental rates possible? Do you want to minimise your void periods and maximise your tenant profile? Then you need to <strong>brand your space!</strong></p>
+						<p class="page-hero__paragraph fadeUp"><?php echo the_field('intro_copy'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -47,110 +47,171 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
 		<section class="pattern pattern--triangle"></section>
 	</div>
 
-	<section class="services-intro">
-		<div class="services-intro__container container">
-			<div class="services-intro__row">
-				<div class="services-intro__third fadeUp">
-					<img class="services-intro__icon" src="<?= get_template_directory_uri(); ?>/assets/img/icon_plan.svg" alt="Intro"/>
-					<h3 class="services-intro__title">Concept</h3>
-					<p class="services-intro__paragraph">We design for you. By talking to you, we learn what you feel inspired by. We then look at how we can creatively apply that into a bespoke concept tailored to your property investment area and strategy. We want you to feel passionate and proud about the property brand we create for you.</p>
-				</div>
-				<div class="services-intro__third fadeUp" data-delay="200">
-					<img class="services-intro__icon" src="<?= get_template_directory_uri(); ?>/assets/img/icon_bedroom.svg" alt="Intro"/>
-					<h3 class="services-intro__title">Investment</h3>
-					<p class="services-intro__paragraph">By committing and investing into your property brand you are investing into yourself. Through the use of our creative property concepts we’ve seen landlords achieve 30%+ higher than average rents, often with waiting lists for the property of potential new tenants. Lower void periods and maintenance issues. It’s a no brainer.</p>
-				</div>
-				<div class="services-intro__third fadeUp" data-delay="400">
-					<img class="services-intro__icon" src="<?= get_template_directory_uri(); ?>/assets/img/icon_house-plan.svg" alt="Intro"/>
-					<h3 class="services-intro__title">Time</h3>
-					<p class="services-intro__paragraph">By choosing to work with us we can support your project by making decisions quickly about materials and where they come from. We will get the property 100% aesthetically ready for the open market.</p>
-				</div>
-			</div>
-		</div>
-	</section>
+	<?php $block_one = get_field('block_one'); ?>
 
-	<section class="services-breakdown">
-		<div class="services-breakdown__container container">
-			<div class="services-breakdown__top">
-				<h2 class="services-breakdown__top-title title-split">
-					<div class="title-split__mask">
-						<span class="title-split__line">
-							How it works
-						</span>
+	<section class="about-jade">
+		<div class="about-jade__container container">
+			<div class="about-jade__row">
+				<div class="about-jade__half reveal"><img src="<?php echo $block_one['image'] ?>" alt="Intro"/></div>
+				<div class="about-jade__half">
+					<div class="about-jade__half-inner">
+						<h2 class="about-jade__title title-split"><?php echo $block_one['heading'] ?></h2>
+						<p class="about-jade__paragraph"><?php echo $block_one['copy'] ?></p>
+						<a class="button" href="<?php echo $block_one['button_link'] ?>"><?php echo $block_one['button_text'] ?></a>
 					</div>
-				</h2>
-				<p class="services-breakdown__top-paragraph fadeUp">As property investors we understand how precious time is during a project, and how many design decisions need to be made on time and in budget.
-
-					Our design service has been created to give you more time back. It’s a turn-key design service, which guarantees you have the best house at the end, stress free. Meaning you can use your time and expertise elsewhere.
-				</p>
-			</div>
-			<div class="services-breakdown__list">
-				<div class="services-breakdown__indicator">
-					<div></div>
-				</div>
-				<div class="services-breakdown__item fadeUp">
-					<div class="services-breakdown__item-number"><div></div>1</div>
-					<h3 class="services-breakdown__item-title">The Brief</h3>
-					<p class="services-breakdown__item-paragraph">An initial meeting will take place with you so we can understand you and the market you operate in.</p>
-				</div>
-				<div class="services-breakdown__item fadeUp">
-					<div class="services-breakdown__item-number"><div></div>2</div>
-					<h3 class="services-breakdown__item-title">The Concept</h3>
-					<p class="services-breakdown__item-paragraph">The concept will be created in the form of a mood-board. Which will show the proposed look, feel, and colour palette.</p>
-				</div>
-				<div class="services-breakdown__item fadeUp">
-					<div class="services-breakdown__item-number"><div></div>3</div>
-					<h3 class="services-breakdown__item-title">Material Spec</h3>
-					<p class="services-breakdown__item-paragraph">After initial concept approval, a detailed material specification pack is then created to demonstrate the type of materials that will be used throughout your project.</p>
-				</div>
-				<div class="services-breakdown__item fadeUp">
-					<div class="services-breakdown__item-number"><div></div>4</div>
-					<h3 class="services-breakdown__item-title">Furniture & Lighting</h3>
-					<p class="services-breakdown__item-paragraph">Detailed CAD drawings will be created that will show all key layouts, including furniture and lighting.</p>
-				</div>
-				<div class="services-breakdown__item fadeUp">
-					<div class="services-breakdown__item-number"><div></div>5</div>
-					<h3 class="services-breakdown__item-title">Visit Site</h3>
-					<p class="services-breakdown__item-paragraph">Throughout the project, visits to the site will be made to track and support progress.</p>
-				</div>
-				<div class="services-breakdown__item fadeUp">
-					<div class="services-breakdown__item-number"><div></div>6</div>
-					<h3 class="services-breakdown__item-title">Source</h3>
-					<p class="services-breakdown__item-paragraph">All interior related items will be sourced and created by us.</p>
-				</div>
-				<div class="services-breakdown__item fadeUp">
-					<div class="services-breakdown__item-number"><div></div>7</div>
-					<h3 class="services-breakdown__item-title">Install</h3>
-					<p class="services-breakdown__item-paragraph">We will install all items and fully stage and dress your property to perfection.</p>
-				</div>
-				<div class="services-breakdown__item fadeUp">
-					<div class="services-breakdown__item-number"><div></div>8</div>
-					<h3 class="services-breakdown__item-title">Photography</h3>
-					<p class="services-breakdown__item-paragraph">We can arrange professional photography, meaning when we leave the building your project is good-to-go on the market.</p>
-				</div>
-				<div class="services-breakdown__item fadeUp">
-					<div class="services-breakdown__item-number"><div></div>9</div>
-					<h3 class="services-breakdown__item-title">To Market</h3>
-					<p class="services-breakdown__item-paragraph">As soon as you receive your professional photographs - you're good to go! With a property you can be proud of.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="services-layout">
-		<div class="services-layout__container container">
-			<h3>Example of floor plan</h3>
-			<img src="<?= get_template_directory_uri(); ?>/assets/img/services_layout.jpg">
+	<?php
+		$block_two = get_field('block_two');
+		$testimonials = $block_one['testimonials'];
+	?>
+
+	<section class="about-jade">
+		<div class="about-jade__container container">
+			<div class="about-jade__row about-jade__row--reverse">
+				<div class="about-jade__half">
+					<div class="about-jade__half-inner">
+						<h2 class="about-jade__title title-split"><?php echo $block_two['heading'] ?></h2>
+						<p class="about-jade__paragraph"><?php echo $block_two['copy'] ?></p>
+						<a class="button" href="<?php echo $block_two['button_link'] ?>"><?php echo $block_two['button_text'] ?></a>
+					</div>
+				</div>
+				<div class="about-jade__half reveal"><img src="<?php echo $block_two['image'] ?>" alt="Intro"/></div>
+			</div>
 		</div>
 	</section>
 
-	<section class="services-render">
-		<div class="services-render__container container">
-			<h3>Example of 3D renders</h3>
-			<p>We can produce 3D renders for your project (provided at an additional cost)</p>
-			<div class="services-render__swipe">
-				<img src="<?= get_template_directory_uri(); ?>/assets/img/img_render.jpg">
-				<img src="<?= get_template_directory_uri(); ?>/assets/img/img_render-2.jpg">
+	<?php if( have_rows('block_two') ): while ( have_rows('block_two') ) : the_row(); ?>
+
+		<section class="home-testimonials services-testimonials">
+			<div class="container home-testimonials__container">
+				<div class="home-testimonials__icon fadeUp">
+					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_quote.svg" />
+				</div>
+
+				<h6 class="services-testimonials__subheading">Here’s what they have to say</h6>
+
+				<div class="home-testimonials__inner">
+
+
+				    <?php if( have_rows('testimonials') ): while ( have_rows('testimonials') ) : the_row(); ?>   
+
+				    <div class="home-testimonials__item">
+						<h3 class="home-testimonials__title"><?php echo get_sub_field('heading'); ?></h3>
+						<p class="home-testimonials__paragraph"><?php echo get_sub_field('copy'); ?></p>
+						<div class="home-testimonials__author fadeUp">
+							<?php if (get_sub_field('author_image')): ?>
+								<img src="<?php echo get_sub_field('author_image'); ?>" />
+							<?php endif ?>
+							<div class="home-testimonials__author-right">
+								<strong><?php echo get_sub_field('author_name'); ?> </strong>
+								<?php echo get_sub_field('author_company'); ?>
+							</div>
+						</div>
+					</div>  
+
+				    <?php endwhile; endif; ?>
+
+				   </div>
+
+				   <div class="home-testimonials__arrows">
+				<div class="home-testimonials__prev home-testimonials__arrow">
+					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-left.svg" />
+				</div>
+				<div class="home-testimonials__next home-testimonials__arrow">
+					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-right.svg" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<?php endwhile; endif; ?>
+
+	<!-- <section class="home-testimonials half-pattern">
+		<div class="half-pattern__inner reveal reveal--dark"></div>
+		<div class="container home-testimonials__container">
+			<div class="home-testimonials__icon fadeUp">
+				<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_quote.svg" />
+			</div>
+			<div class="home-testimonials__inner">
+				<div class="home-testimonials__item">
+					<h3 class="home-testimonials__title">We've had the pleasure of working with Jade over the past 12 months</h3>
+					<p class="home-testimonials__paragraph">and seeing her vision come to life on numerous projects. As well as a fantastic creative flair, she has a real passion for her work as well, ensuring her projects are delivered in the most professional way. Not only that, but she's a genuine nice person, which makes working with her fun as well as rewarding."</p>
+					<div class="home-testimonials__author fadeUp">
+						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_1.png" />
+						<div class="home-testimonials__author-right">
+							<strong>Mike Stenhouse </strong>
+							Inside Property Investing
+						</div>
+					</div>
+				</div>
+				<div class="home-testimonials__item">
+					<h3 class="home-testimonials__title title-split">We work with Jade on a regular basis, Her design ideas are second to none.</h3>
+					<p class="home-testimonials__paragraph fadeUp">She is professional yet friendly, nothing is too much trouble and we've built up a great relationship over the past few months. Simply looking at her Instagram page will give you design inspiration for your next project.“</p>
+					<div class="home-testimonials__author fadeUp">
+						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_2.png" />
+						<div class="home-testimonials__author-right">
+							<strong>Lisa Wild </strong>
+							Landlord Furniture
+						</div>
+					</div>
+				</div>
+				<div class="home-testimonials__item">
+					<h3 class="home-testimonials__title title-split">Beespace turned a very tired, drab office block into a beautiful counselling space</h3>
+					<p class="home-testimonials__paragraph fadeUp">My clients say things like "I feel better just walking in here". Jade used natural materials and calming colours, resulting in a very pleasant place to do counselling work. Thank you Jade for your creativity and commitment to the vision of the Palmer House Wellbeing Centre (and for delivering on time). I would highly recommend working with Beespace if you are looking to create something different that will stand out!"</p>
+					<div class="home-testimonials__author fadeUp">
+						<img src="<?= get_template_directory_uri(); ?>/assets/img/author_3.png" />
+						<div class="home-testimonials__author-right">
+							<strong>Julia Palmer</strong>
+							Palmer House 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="home-testimonials__arrows">
+				<div class="home-testimonials__prev home-testimonials__arrow">
+					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-left.svg" />
+				</div>
+				<div class="home-testimonials__next home-testimonials__arrow">
+					<img src="<?= get_template_directory_uri(); ?>/assets/img/icon_arrow-white-right.svg" />
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	<?php $block_three = get_field('block_three'); ?>
+
+	<section class="about-jade">
+		<div class="about-jade__container container">
+			<div class="about-jade__row about-jade__row--reverse">
+				<div class="about-jade__half">
+					<div class="about-jade__half-inner">
+						<h2 class="about-jade__title title-split"><?php echo $block_three['heading'] ?></h2>
+						<p class="about-jade__paragraph"><?php echo $block_three['copy'] ?></p>
+						<a class="button" href="<?php echo $block_three['button_link'] ?>"><?php echo $block_three['button_text'] ?></a>
+					</div>
+				</div>
+				<div class="about-jade__half reveal"><img src="<?php echo $block_three['image'] ?>" alt="Intro"/></div>
+			</div>
+		</div>
+	</section>
+
+	<?php $block_four = get_field('block_four'); ?>
+
+	<section class="about-jade">
+		<div class="about-jade__container container">
+			<div class="about-jade__row">
+				<div class="about-jade__half reveal"><img src="<?php echo $block_four['image'] ?>" alt="Intro"/></div>
+				<div class="about-jade__half">
+					<div class="about-jade__half-inner">
+						<h2 class="about-jade__title title-split"><?php echo $block_four['heading'] ?></h2>
+						<p class="about-jade__paragraph"><?php echo $block_four['copy'] ?></p>
+						<a class="button" href="<?php echo $block_four['button_link'] ?>"><?php echo $block_four['button_text'] ?></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

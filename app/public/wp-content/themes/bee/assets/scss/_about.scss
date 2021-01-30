@@ -1,16 +1,16 @@
 .about-jade {
-	padding: 50px 0 80px;
+	margin: 50px 0 80px;
 
 	@media screen and (min-width: 600px) {
-		padding: 70px 0 100px;
+		margin: 70px 0 100px;
 	}
 
 	@media screen and (min-width: 800px) {
-		padding: 100px 0 130px;
+		margin: 100px 0 130px;
 	}
 
 	@media screen and (min-width: 1200px) {
-		padding: 140px 0;
+		margin: 140px 0;
 	}
 }
 
@@ -18,10 +18,24 @@
 	display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: 0 -50px;
+}
+
+.about-jade__row--reverse {
+	@media screen and (max-width: 800px) {
+		.about-jade__half:first-child {
+			order: 2;
+		}
+
+		.about-jade__half:last-child {
+			order: 1;
+		}
+	}
 }
 
 .about-jade__half {
 	width: 100%;
+	padding: 0 50px;
 
 	@media screen and (min-width: 800px) {
 		width: 50%;
@@ -33,7 +47,7 @@
 	padding: 50px 0 0 0;
 
 	@media screen and (min-width: 800px) {
-		padding: 0 0 0 10%;
+		padding: 0;
 	}
 }
 

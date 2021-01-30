@@ -1782,24 +1782,32 @@ textarea {
   margin: 0 0 30px 0; }
 
 .about-jade {
-  padding: 50px 0 80px; }
+  margin: 50px 0 80px; }
   @media screen and (min-width: 600px) {
     .about-jade {
-      padding: 70px 0 100px; } }
+      margin: 70px 0 100px; } }
   @media screen and (min-width: 800px) {
     .about-jade {
-      padding: 100px 0 130px; } }
+      margin: 100px 0 130px; } }
   @media screen and (min-width: 1200px) {
     .about-jade {
-      padding: 140px 0; } }
+      margin: 140px 0; } }
 
 .about-jade__row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center; }
+  align-items: center;
+  margin: 0 -50px; }
+
+@media screen and (max-width: 800px) {
+  .about-jade__row--reverse .about-jade__half:first-child {
+    order: 2; }
+  .about-jade__row--reverse .about-jade__half:last-child {
+    order: 1; } }
 
 .about-jade__half {
-  width: 100%; }
+  width: 100%;
+  padding: 0 50px; }
   @media screen and (min-width: 800px) {
     .about-jade__half {
       width: 50%;
@@ -1809,7 +1817,7 @@ textarea {
   padding: 50px 0 0 0; }
   @media screen and (min-width: 800px) {
     .about-jade__half-inner {
-      padding: 0 0 0 10%; } }
+      padding: 0; } }
 
 .about-jade__title {
   margin: 0 0 20px 0; }
@@ -2052,6 +2060,21 @@ textarea {
       margin-bottom: 0; } }
   .services-downloads__column:last-child {
     margin-bottom: 0; }
+
+.services-testimonials {
+  text-align: center; }
+  .services-testimonials .services-testimonials__subheading {
+    margin-bottom: 40px; }
+  .services-testimonials .home-testimonials__icon {
+    left: 50%;
+    margin-left: -30px; }
+  .services-testimonials .home-testimonials__inner {
+    margin: 0 auto; }
+  .services-testimonials .home-testimonials__author {
+    justify-content: center; }
+  @media screen and (min-width: 800px) {
+    .services-testimonials .home-testimonials__icon {
+      margin-left: -40px; } }
 
 .project-hero {
   position: relative; }
